@@ -1,3 +1,12 @@
+//INSERTION SORT 
+// in this each element is compared with the already-sorted part of the array, and inserted at the correct position 
+// working - 
+// - for each element(starting from index 1)
+// take the element(key)
+//compare it with the elements to its left
+//shft all larger elements to the righ 
+//insert the key in the correct position
+
 import java.util.Scanner;
 
 public class Insertion_sort {

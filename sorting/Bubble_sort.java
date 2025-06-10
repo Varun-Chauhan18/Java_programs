@@ -1,3 +1,7 @@
+// BUBBLE SORT :-
+// in bubble sort we repeatedly iterate through the list and the adjacent elements are compared and then swaped if they are in wrong order this iterations is repeated until the list is sorted . 
+// its called bubble sort because larger elements "bubble up " to te end of the array in each pass 
+
 import java.util.Scanner;
 
 public class Bubble_sort {
