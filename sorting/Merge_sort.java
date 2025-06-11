@@ -1,3 +1,13 @@
+// Merge Sort uses the Divide and Conquer technique.
+// Here is how it works in 3 major steps:
+// 1. Divide
+// -Split the array into two halves.
+// -Keep dividing each half until each subarray contains only one element (base case).
+// 2. Conquer (Sort)
+// Recursively sort the subarrays.
+// 3. Combine (Merge)
+// Merge two sorted subarrays to make one sorted array.
+
 public class Merge_sort {
     // Function to sort the array using Merge Sort
     public static void mergeSort(int[] arr, int left, int right) {
